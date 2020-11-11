@@ -11,9 +11,9 @@ $bike->setCurrentSpeed(25);
 $cars->setCurrentSpeed(5);
 $cars->setColor("red");
 
-var_dump($bike);
+//var_dump($bike);
 
-var_dump($cars);
+//var_dump($cars);
 // Instanciation d'un nouvel objet $rockrider
 //$rockrider = new Bicycle();
 //$rockrider->color = 'yellow';
@@ -29,11 +29,11 @@ $venturi->setNbSeats(4);
 
 //Moving bike
 
-//echo $bike->forward();
-//echo '<br> Vitesse du vélo : ' . $bike->currentSpeed . ' km/h' . '<br>';
-//echo $bike->brake();
-//echo '<br> Vitesse du vélo : ' . $bike->currentSpeed . ' km/h' . '<br>';
-//echo $bike->brake();
+echo $bike->forward();
+echo '<br> Vitesse du vélo : ' . $bike->currentSpeed . ' km/h' . '<br>';
+echo $bike->brake();
+echo '<br> Vitesse du vélo : ' . $bike->currentSpeed . ' km/h' . '<br>';
+echo $bike->brake();
 
 //Moving car
 
@@ -46,8 +46,8 @@ echo $cars->brake();
 
 //$tornado->forward();
 //var_dump($rockrider);
-var_dump($tornado);
+//var_dump($tornado);
 //$bike->dump();
 
 //var_dump($cars);
-var_dump($venturi);
+//var_dump($venturi);
