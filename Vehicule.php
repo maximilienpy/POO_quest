@@ -4,7 +4,7 @@
 
 // Vehicule.php
 
-class Vehicule
+abstract class Vehicule
 {
 
     // const ALLOWED_ENERGIES = [
